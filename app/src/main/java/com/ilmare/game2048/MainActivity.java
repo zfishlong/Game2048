@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void clearScore() {
         this.Score = 0;
         scoreView.setText("得分：" + Score);
+
     }
 
 
